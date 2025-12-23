@@ -1,5 +1,8 @@
 package studies.factory.simple;
 
+/**
+ * This is the object that is going to be responsible to call the Factory. それだけだ。
+ */
 public class CardCreator {
     public void createCard(final String cardType) {
         final Card card = CardFactory.getCard(cardType);

@@ -3,9 +3,7 @@ package studies.factory;
 import studies.factory.method.factories.IssueFactory;
 import studies.factory.method.factories.ProblemFactory;
 import studies.factory.method.factories.TaskFactory;
-import studies.factory.simple.Card;
 import studies.factory.simple.CardCreator;
-import studies.factory.simple.CardFactory;
 
 public class Main {
     public static void main(String[] args) {
